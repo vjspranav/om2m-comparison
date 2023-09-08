@@ -1,4 +1,3 @@
-from OneM2M.OM2M import OM2M
 from locust import HttpUser, task, LoadTestShape, constant, events
 
 import json
@@ -10,7 +9,7 @@ with open('nodesdata.json') as f:
     nodesdata = json.load(f)
 
 
-MAIN_URL = 'http://10.3.1.117:8200/~/in-cse/in-name'
+MAIN_URL = 'http://10.3.1.117:8001/Mobius'
 
 AQNodes = list(nodes['AE-AQ'])
 SRNodes = list(nodes['AE-SR'])
@@ -46,9 +45,10 @@ class AQUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-AQ/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-AQ/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
 
@@ -71,11 +71,13 @@ class SRUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-SR/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-SR/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
+            
 
     @task
     def run_task(self):
@@ -95,9 +97,10 @@ class EMUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-EM/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-EM/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
 
@@ -119,9 +122,10 @@ class WMUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-WM/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-WM/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
 
@@ -143,9 +147,10 @@ class SLUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-SL/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-SL/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
 
@@ -167,9 +172,10 @@ class CMUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-CM/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-CM/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
 
@@ -191,9 +197,10 @@ class WNUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-WN/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-WN/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
     
@@ -215,9 +222,10 @@ class WEUser(HttpUser):
                 'cnf': nodesdata[self.node]['cnf']
             }
         }
-        self.url = MAIN_URL + '/AE-WE/' + self.node + '/Data'
+        self.url = MAIN_URL + '/AE-WE/' + self.node + '/Data?rcn=1'
         self.headers = {
-            'X-M2M-Origin': 'admin:admin',
+            'X-M2M-RI': '12345',
+            'X-M2M-Origin': 'SOrigin' + self.node,
             'Content-Type': 'application/json;ty=4'
         }
     

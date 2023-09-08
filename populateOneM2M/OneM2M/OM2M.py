@@ -50,3 +50,18 @@ class OM2M:
         r = requests.post(self.url + '/' + parent + '/' + name, headers=headers, json=data)
 
         return r.status_code
+    
+    def create_cin(self, parent, node, con, lbl, cnf):
+        data = {
+            "m2m:cin":{
+                "con": con,
+                "lbl": lbl,
+                "cnf": cnf
+            }
+        }
+        headers = {
+            'X-M2M-Origin': self.username + ':' + self.password,
+            'Content-Type': 'application/json;ty=4'
+        }
+        r = requests.post(self.url + '/' + parent + '/' + node + '/Data', headers=headers, json=data)
+        return r

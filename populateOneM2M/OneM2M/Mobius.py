@@ -52,3 +52,21 @@ class Mobius:
         r = requests.post(self.url + '/' + parent + '/' + name, headers=headers, json=data)
 
         return r.status_code
+    
+    def create_cin(self, parent, node, con, lbl, cnf, XM2MORIGIN):
+        data = {
+            "m2m:cin":{
+                "con": con,
+                "lbl": lbl,
+                "cnf": cnf
+            }
+        }
+
+        headers = {
+            'X-M2M-RI': self.XM2MRI,
+            'X-M2M-Origin': XM2MORIGIN,
+            'Content-Type': 'application/json;ty=4'
+        }
+
+        r = requests.post(self.url + '/' + parent + '/' + node + '/Data?rcn=1', headers=headers, json=data)
+        return r.status_code, r.text

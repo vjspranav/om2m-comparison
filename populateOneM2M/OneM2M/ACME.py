@@ -87,3 +87,22 @@ class ACME:
                         json.dump(self.ri, f)
             
             return r.status_code
+    
+    def create_cin(self, parent, node, con, lbl, cnf, XM2MRI):
+        data = {
+            "m2m:cin": {
+                "con": con,
+                "lbl": lbl,
+                "cnf": cnf
+            }
+        }
+        headers = {
+            'Content-Type': 'application/json;ty=4',
+            'Accept': 'application/json',
+            'X-M2M-Origin': 'CAdmin' + parent,
+            'X-M2M-RI': XM2MRI,
+            'X-M2M-RVI': self.rvi
+        }
+
+        r = requests.post(self.url + '/' + self.ri[parent]['nodes'][node]['nodes']['Data']['ri'], headers=headers, data = json.dumps(data))
+        return r.status_code, r.text.encode('utf8')

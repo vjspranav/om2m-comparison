@@ -1,4 +1,3 @@
-
 CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O    PIDS
 279b3cf3c92b   acme-acme-1   0.34%     81.87MiB / 15.32GiB   0.52%     394MB / 474MB   0B / 241MB   19
 CONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O    PIDS

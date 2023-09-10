@@ -1,4 +1,3 @@
-
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
 a0088cc599a5   mobius-node-app-1   1.55%     506.7MiB / 15.32GiB   3.23%     1.26GB / 1.05GB   541kB / 0B   143
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS

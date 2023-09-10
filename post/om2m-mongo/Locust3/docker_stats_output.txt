@@ -1,4 +1,3 @@
-
 CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
 784d7e76854f   multi-om2m-mongo-db-1   0.55%     503.5MiB / 15.32GiB   3.21%     1.13GB / 4.92GB   100MB / 1.12GB   134
 CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS

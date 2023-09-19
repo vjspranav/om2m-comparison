@@ -1,0 +1,25 @@
+Method,Name,Error,Occurrences
+GET,/Mobius/AE-WM/WM-WD-VN00-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AQ-KH95-01/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SL/SL-VN95-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WM/WM-WD-AD98-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-EM/EM-NC-SM00-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH01-12/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WM/WM-WD-VN01-01/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH02-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SL/SL-NI03-01/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AQ/AQ-KN00-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-CM/CM-VN90-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH03-19/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WN/WN-L053-20/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH00-03/Data,RemoteDisconnected('Remote end closed connection without response'),2
+GET,/Mobius/AE-WN/WN-L001-03/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SL/SL-NI03-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-EM/EM-NC-BD01-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH03-02/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WN/WN-L032-30/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-SR/SR-AC-KH00-16/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-EM/EM-NC-VN01-02/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WM/WM-WF-PH03-03/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-EM/EM-NC-NI93-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-WM/WM-WF-VN01-00/Data,RemoteDisconnected('Remote end closed connection without response'),1

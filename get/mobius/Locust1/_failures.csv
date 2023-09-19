@@ -1,8 +1,0 @@
-Method,Name,Error,Occurrences
-GET,/Mobius/ae_oc/OC138/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ23/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_ac/AC20/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_oc/OC115/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_oc/OC123/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
-GET,/Mobius/ae_aq/AQ27/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ30/Data,RemoteDisconnected('Remote end closed connection without response'),1

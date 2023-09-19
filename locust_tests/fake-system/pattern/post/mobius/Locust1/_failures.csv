@@ -1,0 +1,50 @@
+Method,Name,Error,Occurrences
+POST,/Mobius/ae_ac/AC88/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC88/Data'),1
+POST,/Mobius/ae_aq/AQ27/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ27/Data'),1
+POST,/Mobius/ae_oc/OC14/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_aq/AQ51/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_oc/OC85/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC85/Data'),1
+POST,/Mobius/ae_ac/AC106/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC106/Data'),1
+POST,/Mobius/ae_oc/OC76/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC76/Data'),1
+POST,/Mobius/ae_ac/AC85/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC85/Data'),1
+POST,/Mobius/ae_aq/AQ55/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ55/Data'),1
+POST,/Mobius/ae_aq/AQ5/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ5/Data'),1
+POST,/Mobius/ae_aq/AQ66/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ66/Data'),1
+POST,/Mobius/ae_ac/AC0/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC0/Data'),1
+POST,/Mobius/ae_ac/AC30/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC30/Data'),1
+POST,/Mobius/ae_oc/OC110/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_aq/AQ134/Data,RemoteDisconnected('Remote end closed connection without response'),2
+POST,/Mobius/ae_oc/OC86/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC86/Data'),1
+POST,/Mobius/ae_oc/OC100/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_ac/AC146/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC146/Data'),1
+POST,/Mobius/ae_oc/OC105/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_aq/AQ23/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ23/Data'),1
+POST,/Mobius/ae_oc/OC4/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC4/Data'),1
+POST,/Mobius/ae_oc/OC114/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC114/Data'),1
+POST,/Mobius/ae_oc/OC3/Data,HTTPError('500 Server Error: Internal Server Error for url: /Mobius/ae_oc/OC3/Data'),1
+POST,/Mobius/ae_ac/AC2/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC2/Data'),1
+POST,/Mobius/ae_aq/AQ149/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ149/Data'),1
+POST,/Mobius/ae_aq/AQ16/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+POST,/Mobius/ae_oc/OC98/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC98/Data'),1
+POST,/Mobius/ae_oc/OC8/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC8/Data'),1
+POST,/Mobius/ae_ac/AC119/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC119/Data'),1
+POST,/Mobius/ae_aq/AQ65/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ65/Data'),1
+POST,/Mobius/ae_ac/AC83/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC83/Data'),1
+POST,/Mobius/ae_ac/AC32/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC32/Data'),1
+POST,/Mobius/ae_aq/AQ100/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+POST,/Mobius/ae_aq/AQ109/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ109/Data'),1
+POST,/Mobius/ae_aq/AQ32/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ32/Data'),1
+POST,/Mobius/ae_ac/AC93/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC93/Data'),1
+POST,/Mobius/ae_oc/OC125/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC125/Data'),2
+POST,/Mobius/ae_ac/AC29/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC29/Data'),1
+POST,/Mobius/ae_aq/AQ38/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ38/Data'),1
+POST,/Mobius/ae_ac/AC37/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC37/Data'),1
+POST,/Mobius/ae_ac/AC131/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_ac/AC131/Data'),2
+POST,/Mobius/ae_ac/AC149/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_aq/AQ87/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ87/Data'),1
+POST,/Mobius/ae_oc/OC117/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC117/Data'),1
+POST,/Mobius/ae_ac/AC103/Data,RemoteDisconnected('Remote end closed connection without response'),1
+POST,/Mobius/ae_aq/AQ100/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ100/Data'),1
+POST,/Mobius/ae_oc/OC62/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_oc/OC62/Data'),1
+POST,/Mobius/ae_aq/AQ133/Data,HTTPError('409 Client Error: Conflict for url: /Mobius/ae_aq/AQ133/Data'),1
+POST,/Mobius/ae_ac/AC96/Data,RemoteDisconnected('Remote end closed connection without response'),1

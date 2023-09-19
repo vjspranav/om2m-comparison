@@ -26,8 +26,11 @@
         color: #007bff;
       }
 
+      /* complementing h2 color 
+      reddish: #dc3545;
+      */
       h3 {
-        color: #333;
+        color: #dc3545;
       }
 
       a {
@@ -38,83 +41,630 @@
       a:hover {
         text-decoration: underline;
       }
+
+      table {
+        font-family: Arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      /* Tab Styles */
+      .tab-container {
+        display: flex;
+      }
+
+      .tab-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        flex: 1;
+        text-align: center;
+      }
+
+      .tab-button-active {
+        background-color: #0056b3;
+      }
+
+      .tab-button-inactive {
+        background-color: #007bff;
+      }
+
+      /* make it different */
+      .tab-button:hover {
+        background-color: #0d6efd;
+      }
+
+      .tab-button-active:hover {
+        background-color: #0056b3;
+      }
+
+      .tab-content {
+        display: none;
+        flex-direction: column;
+      }
+
+      .active-tab {
+        display: block;
+      }
     </style>
   </head>
   <body>
     <h1>Locust Reports</h1>
-    <ul>
-      <li>
-        <h2>get</h2>
-        <ul>
-          <li>
-            <h3>ACME</h3>
-            <ul>
-              <!-- List report.html files for ACME under get -->
-              <li><a href="get/ACME/Locust1/report.html">Random</a></li>
-              <li><a href="get/ACME/Locust2/report.html">Periodic</a></li>
-              <li><a href="get/ACME/Locust3/report.html">Step</a></li>
-              <li><a href="get/ACME/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>mobius</h3>
-            <ul>
-              <!-- List report.html files for mobius under get -->
-              <li><a href="get/mobius/Locust1/report.html">Random</a></li>
-              <li><a href="get/mobius/Locust2/report.html">Periodic</a></li>
-              <li><a href="get/mobius/Locust3/report.html">Step</a></li>
-              <li><a href="get/mobius/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>om2m-mongo</h3>
-            <ul>
-              <!-- List report.html files for om2m-mongo under get -->
-              <li><a href="get/om2m-mongo/Locust1/report.html">Random</a></li>
-              <li><a href="get/om2m-mongo/Locust2/report.html">Periodic</a></li>
-              <li><a href="get/om2m-mongo/Locust3/report.html">Step</a></li>
-              <li><a href="get/om2m-mongo/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <h2>post</h2>
-        <ul>
-          <li>
-            <h3>ACME</h3>
-            <ul>
-              <!-- List report.html files for ACME under post -->
-              <li><a href="post/ACME/Locust1/report.html">Random</a></li>
-              <li><a href="post/ACME/Locust2/report.html">Periodic</a></li>
-              <li><a href="post/ACME/Locust3/report.html">Step</a></li>
-              <li><a href="post/ACME/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>mobius</h3>
-            <ul>
-              <!-- List report.html files for mobius under post -->
-              <li><a href="post/mobius/Locust1/report.html">Random</a></li>
-              <li><a href="post/mobius/Locust2/report.html">Periodic</a></li>
-              <li><a href="post/mobius/Locust3/report.html">Step</a></li>
-              <li><a href="post/mobius/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>om2m-mongo</h3>
-            <ul>
-              <!-- List report.html files for om2m-mongo under post -->
-              <li><a href="post/om2m-mongo/Locust1/report.html">Random</a></li>
-              <li>
-                <a href="post/om2m-mongo/Locust2/report.html">Periodic</a>
-              </li>
-              <li><a href="post/om2m-mongo/Locust3/report.html">Step</a></li>
-              <li><a href="post/om2m-mongo/Locust4/report.html">Poisson</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <!-- Tab Buttons -->
+    <div class="tab-container">
+      <button class="tab-button tab-button-active" onclick="showTab('getTab')">
+        GET
+      </button>
+      <button
+        class="tab-button tab-button-inactive"
+        onclick="showTab('postTab')"
+      >
+        POST
+      </button>
+    </div>
+
+    <!-- GET Tab -->
+    <div id="getTab" class="tab-content">
+      <h2>GET</h2>
+      <h3>Fake System - Pattern</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="3">ACME</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/ACME/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/ACME/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/ACME/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- mobius Tests -->
+          <tr>
+            <td rowspan="3">mobius</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/mobius/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/mobius/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/mobius/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="3">om2m-mongo</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/om2m-mongo/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/om2m-mongo/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/get/om2m-mongo/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Real System - Pattern</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="3">ACME</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/ACME/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/ACME/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/ACME/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- mobius Tests -->
+          <tr>
+            <td rowspan="3">mobius</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/mobius/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/mobius/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/mobius/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="3">om2m-mongo</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/om2m-mongo/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/om2m-mongo/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/get/om2m-mongo/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Real System - Stress & Emulation</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Test Type</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="2">ACME</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/get/ACME/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/get/ACME/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <!-- Mobius Tests -->
+          <tr>
+            <td rowspan="2">mobius</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/get/mobius/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/get/mobius/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="2">om2m-mongo</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/get/om2m-mongo/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/get/om2m-mongo/test_report.png"
+                >Report</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="postTab" class="tab-content active-tab">
+      <h2>POST</h2>
+      <h3>Fake System - Pattern</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="3">ACME</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/ACME/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/ACME/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/ACME/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- mobius Tests -->
+          <tr>
+            <td rowspan="3">mobius</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/mobius/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/mobius/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/mobius/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="3">om2m-mongo</td>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/om2m-mongo/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/om2m-mongo/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/fake-system/pattern/post/om2m-mongo/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Real System - Pattern</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="3">ACME</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/ACME/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/ACME/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/ACME/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- mobius Tests -->
+          <tr>
+            <td rowspan="3">mobius</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/mobius/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/mobius/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/mobius/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="3">om2m-mongo</td>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/om2m-mongo/Locust2/report.html"
+                >Periodic</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/om2m-mongo/Locust3/report.html"
+                >Step</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a
+                href="locust_tests/real-system/pattern/post/om2m-mongo/Locust4/report.html"
+                >Poisson</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Real System - Stress & Emulation</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Test Name</th>
+            <th>Test Type</th>
+            <th>Report File</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ACME Tests -->
+          <tr>
+            <td rowspan="2">ACME</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/post/ACME/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/post/ACME/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <!-- Mobius Tests -->
+          <tr>
+            <td rowspan="2">mobius</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/post/mobius/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/post/mobius/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <!-- om2m-mongo Tests -->
+          <tr>
+            <td rowspan="2">om2m-mongo</td>
+            <td>Emulation</td>
+            <td>
+              <a
+                href="locust_tests/real-system/emulation/post/om2m-mongo/test_report.html"
+                >Report</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Stress</td>
+            <td>
+              <a
+                href="locust_tests/real-system/stress/post/om2m-mongo/test_report.png"
+                >Report</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- JavaScript to toggle tabs -->
+    <script>
+      function showTab(tabId) {
+        // Hide all tab contents
+        const tabContents = document.querySelectorAll(".tab-content");
+        tabContents.forEach((content) => {
+          content.classList.remove("active-tab");
+        });
+
+        // Show the selected tab content
+        document.getElementById(tabId).classList.add("active-tab");
+
+        // Change the button colors
+        const tabButtons = document.querySelectorAll(".tab-button");
+
+        // replace active with inactive and vice versa
+        tabButtons.forEach((button) => {
+          if (button.classList.contains("tab-button-active")) {
+            button.classList.remove("tab-button-active");
+            button.classList.add("tab-button-inactive");
+          } else {
+            button.classList.remove("tab-button-inactive");
+            button.classList.add("tab-button-active");
+          }
+        });
+      }
+    </script>
   </body>
 </html>

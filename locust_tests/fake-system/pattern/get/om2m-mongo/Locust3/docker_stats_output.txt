@@ -1,0 +1,550 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.98%     445.6MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     445.7MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     445.7MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.59%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.49%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.60%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   916.39%   445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1197.12%   445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   483.51%   445.5MiB / 15.32GiB   2.84%     620MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   936.22%   445.5MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   609.50%   445.5MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   85.59%    445.5MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1196.24%   445.5MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   791.75%   445.1MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     445.2MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     445.2MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.10%   445.3MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1014.11%   445.2MiB / 15.32GiB   2.84%     621MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     445.2MiB / 15.32GiB   2.84%     622MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.50%   445.2MiB / 15.32GiB   2.84%     622MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.12%     445.2MiB / 15.32GiB   2.84%     622MB / 2.73GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1118.27%   445.3MiB / 15.32GiB   2.84%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.59%   445.2MiB / 15.32GiB   2.84%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   353.56%   445.2MiB / 15.32GiB   2.84%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   552.59%   445.2MiB / 15.32GiB   2.84%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.60%   444.8MiB / 15.32GiB   2.84%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   214.80%   444.7MiB / 15.32GiB   2.83%     622MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   660.19%   444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.33%   444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   682.89%   444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1033.56%   444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   199.93%   444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   661.40%   444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.49%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.59%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.99%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.49%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.03%     444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.59%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.62%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.62%     444.7MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   658.53%   444.8MiB / 15.32GiB   2.84%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1188.35%   444.2MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1184.07%   444.2MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   237.60%   444.2MiB / 15.32GiB   2.83%     623MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   75.80%    444.2MiB / 15.32GiB   2.83%     624MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1194.98%   444.2MiB / 15.32GiB   2.83%     624MB / 2.74GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.11%   444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   141.63%   444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   4.57%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.95%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.92%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.66%     444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.93%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.59%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.56%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.60%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.56%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.62%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.5MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.99%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.00%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.59%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.62%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.55%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.58%     444.3MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   490.35%   444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.49%   444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   259.05%   444.4MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   478.10%   444.2MiB / 15.32GiB   2.83%     624MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   592.55%   444.2MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   2.28%     444.2MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   560.41%   444.2MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   892.48%   444.4MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.95%     444.3MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1049.02%   444.3MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   979.14%   444.3MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.00%     444.3MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.87%   444.3MiB / 15.32GiB   2.83%     625MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   807.09%   444.3MiB / 15.32GiB   2.83%     626MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.03%     444.4MiB / 15.32GiB   2.83%     626MB / 2.75GB   102MB / 1.73GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1186.27%   443.8MiB / 15.32GiB   2.83%     626MB / 2.75GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   936.60%   443.8MiB / 15.32GiB   2.83%     626MB / 2.75GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1090.02%   443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   959.00%   443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   627.44%   443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   971.76%   443.8MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     443.9MiB / 15.32GiB   2.83%     626MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1187.45%   443.8MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   783.45%   443.8MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   86.95%    443.8MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   677.50%   443.9MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   347.32%   443.8MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     443.8MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1152.59%   443.3MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   77.61%    443.3MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   666.92%   443.3MiB / 15.32GiB   2.83%     627MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.13%   443.3MiB / 15.32GiB   2.83%     628MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   8.29%     443.4MiB / 15.32GiB   2.83%     628MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   731.61%   443.3MiB / 15.32GiB   2.83%     628MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1180.12%   443.3MiB / 15.32GiB   2.83%     628MB / 2.76GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   60.15%    443.3MiB / 15.32GiB   2.83%     628MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   894.13%   443.3MiB / 15.32GiB   2.83%     628MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1193.84%   443.4MiB / 15.32GiB   2.83%     628MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   104.69%   443.3MiB / 15.32GiB   2.83%     628MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   733.89%   443.4MiB / 15.32GiB   2.83%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1198.17%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   87.86%    442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1060.78%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1166.18%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   196.05%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   725.62%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1158.72%   442.9MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   122.74%   442.8MiB / 15.32GiB   2.82%     629MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   860.59%   442.9MiB / 15.32GiB   2.82%     630MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1188.40%   442.8MiB / 15.32GiB   2.82%     630MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   669.35%   442.8MiB / 15.32GiB   2.82%     630MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   996.13%   442.8MiB / 15.32GiB   2.82%     630MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1184.49%   442.8MiB / 15.32GiB   2.82%     630MB / 2.77GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1182.80%   442.8MiB / 15.32GiB   2.82%     630MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1187.18%   442.3MiB / 15.32GiB   2.82%     630MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.64%   442.3MiB / 15.32GiB   2.82%     630MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.49%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.63%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.48%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   100.16%   442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     442.4MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1185.45%   442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   16.14%    442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1190.62%   442.4MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   93.34%    442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1195.55%   442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1.08%     442.4MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   100.60%   442.3MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.74%   442.4MiB / 15.32GiB   2.82%     631MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   812.95%   442.3MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   171.31%   442.4MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1058.48%   442.4MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     441.8MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   293.38%   441.8MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   973.43%   441.8MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     441.7MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   358.79%   441.8MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   894.23%   442MiB / 15.32GiB   2.82%     632MB / 2.78GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   132.90%   441.7MiB / 15.32GiB   2.82%     632MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   431.89%   441.8MiB / 15.32GiB   2.82%     632MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.43%     441.7MiB / 15.32GiB   2.82%     632MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1063.49%   441.8MiB / 15.32GiB   2.82%     632MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.68%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.92%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.54%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.95%     441.9MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.56%     441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   100.77%   441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.50%     441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.80%   441.8MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1185.47%   441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.53%   441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1187.64%   442MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1184.71%   441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.70%   441.7MiB / 15.32GiB   2.82%     633MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.25%   441.7MiB / 15.32GiB   2.82%     634MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1169.57%   441.7MiB / 15.32GiB   2.82%     634MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1188.86%   441.7MiB / 15.32GiB   2.82%     634MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.80%   441.7MiB / 15.32GiB   2.82%     634MB / 2.79GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1187.52%   441.7MiB / 15.32GiB   2.82%     634MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1193.02%   441.8MiB / 15.32GiB   2.82%     634MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1205.00%   441.7MiB / 15.32GiB   2.82%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1185.57%   441.7MiB / 15.32GiB   2.82%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1188.95%   441.7MiB / 15.32GiB   2.82%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.47%   441.7MiB / 15.32GiB   2.82%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.39%   441.1MiB / 15.32GiB   2.81%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1204.30%   441.1MiB / 15.32GiB   2.81%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1198.16%   441.1MiB / 15.32GiB   2.81%     635MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.54%   441.1MiB / 15.32GiB   2.81%     636MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1190.56%   441.2MiB / 15.32GiB   2.81%     636MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.68%   441.1MiB / 15.32GiB   2.81%     636MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1195.76%   441.1MiB / 15.32GiB   2.81%     636MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1193.80%   441.1MiB / 15.32GiB   2.81%     636MB / 2.8GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1189.53%   441.1MiB / 15.32GiB   2.81%     636MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1185.70%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.81%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1193.85%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1184.49%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1192.29%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1190.47%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1200.49%   441.1MiB / 15.32GiB   2.81%     637MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1195.12%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1197.82%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1191.50%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1202.51%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1187.96%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %      MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   1197.89%   441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.60%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.53%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.51%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+784d7e76854f   multi-om2m-mongo-db-1   0.52%     441.1MiB / 15.32GiB   2.81%     638MB / 2.81GB   102MB / 1.74GB   134

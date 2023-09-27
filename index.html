@@ -111,10 +111,11 @@
     <h1>Locust Reports</h1>
     <!-- Tab Buttons -->
     <div class="tab-container">
-      <button class="tab-button tab-button-active" onclick="showTab('getTab')">
+      <button id="get-button" class="tab-button tab-button-active" onclick="showTab('getTab')">
         GET
       </button>
       <button
+        id="post-button"
         class="tab-button tab-button-inactive"
         onclick="showTab('postTab')"
       >
@@ -319,16 +320,7 @@
         <tbody>
           <!-- ACME Tests -->
           <tr>
-            <td rowspan="2">ACME</td>
-            <td>Emulation</td>
-            <td>
-              <a
-                href="locust_tests/real-system/emulation/get/ACME/test_report.html"
-                >Report</a
-              >
-            </td>
-          </tr>
-          <tr>
+            <td rowspan="1">ACME</td>
             <td>Stress</td>
             <td>
               <a
@@ -339,16 +331,7 @@
           </tr>
           <!-- Mobius Tests -->
           <tr>
-            <td rowspan="2">mobius</td>
-            <td>Emulation</td>
-            <td>
-              <a
-                href="locust_tests/real-system/emulation/get/mobius/test_report.html"
-                >Report</a
-              >
-            </td>
-          </tr>
-          <tr>
+            <td rowspan="1">mobius</td>
             <td>Stress</td>
             <td>
               <a
@@ -359,20 +342,11 @@
           </tr>
           <!-- om2m-mongo Tests -->
           <tr>
-            <td rowspan="2">om2m-mongo</td>
-            <td>Emulation</td>
-            <td>
-              <a
-                href="locust_tests/real-system/emulation/get/om2m-mongo/test_report.html"
-                >Report</a
-              >
-            </td>
-          </tr>
-          <tr>
+            <td rowspan="1">om2m-mongo</td>
             <td>Stress</td>
             <td>
               <a
-                href="locust_tests/real-system/stress/get/om2m-mongo/test_report.png"
+                href="locust_tests/real-system/stress/get/om2m-mongo/test_report.html"
                 >Report</a
               >
             </td>
@@ -665,6 +639,9 @@
           }
         });
       }
+
+      // Add onclick event to tab buttons
+      
     </script>
   </body>
 </html>

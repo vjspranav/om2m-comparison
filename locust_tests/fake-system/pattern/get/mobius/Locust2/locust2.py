@@ -6,8 +6,10 @@ import math
 from locust import HttpUser, task, between, LoadTestShape
 from gevent.lock import Semaphore
 from locust import events
+
 HEADER = {
-    'X-M2M-Origin': 'admin:admin',
+    'X-M2M-Origin': 'SOrigin1',
+    'X-M2M-RI': '12345',
     'Content-Type': 'application/json;ty=4;charset=utf-8'
 }
 
@@ -30,11 +32,6 @@ max_users = 500
 users_waiting = 0
 event = gevent.event.Event()
 lock = Semaphore()
-
-
-
-
-
 
 class MyUser(HttpUser):
     wait_time = between(1, 1)
@@ -73,7 +70,7 @@ class MyUser(HttpUser):
        
         item = random.choice(self.all_nodes)
         node_type = item.split('-')[0]
-        url = f"http://10.3.1.117:8200/~/in-cse/in-name/AE-{node_type}/{item}/Data/la"
+        url = f"http://10.3.1.117:8001/Mobius/AE-{node_type}/{item}/Data"
         self.client.get(url, headers=HEADER)
 
 

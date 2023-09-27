@@ -1,7 +1,10 @@
-from locust import HttpUser, task, LoadTestShape, constant, events
-
-import json
+from locust import HttpUser, task, LoadTestShape, constant, events, between
+from gevent.lock import Semaphore
 import random
+import json
+import time
+import gevent
+import math
 
 with open('nodes.json') as f:
     nodes = json.load(f)
@@ -14,239 +17,74 @@ with open('ri.json') as f:
 
 MAIN_URL = 'http://10.3.1.117:8002'
 
-AQNodes = list(nodes['AE-AQ'])
-SRNodes = list(nodes['AE-SR'])
-EMNodes = list(nodes['AE-EM'])
-WMNodes = list(nodes['AE-WM'])
-SLNodes = list(nodes['AE-SL'])
-CMNodes = list(nodes['AE-CM'])
-WNNodes = list(nodes['AE-WN'])
-WENodes = list(nodes['AE-WE'])
+all_nodes = []
+for node_type, node_names in nodes.items():
+    all_nodes.extend(node_names)
 
-
+users_waiting = 0
+event = gevent.event.Event()
+lock = Semaphore()
 
 class StepLoadShape(LoadTestShape):
+    step_time = 10
+    step_load =10
+    spawn_rate = 10  # Increase users by 10 every 10 seconds
+    time_limit = 14400  # 4 hours
+
     def tick(self):
         run_time = self.get_run_time()
-        if run_time < 14400:  # 14400 seconds = 4 hours
-            return (random.randint(1, self.user_count), self.hatch_rate)
-        else:
+
+        if run_time > self.time_limit:
             return None
 
-# 1 min 3 reqs
-class AQUser(HttpUser):
-    wait_time = constant(60)
-    fixed_count = len(AQNodes)
+        current_step = math.floor(run_time / self.step_time) + 1
+        return (current_step * self.step_load, self.spawn_rate)
 
-    def on_start(self):
-        self.node = AQNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-AQ']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
+
+class MyUser(HttpUser):
+    wait_time = between(1, 1)
+
+    @task
+    def increase_users(self):
+        global users_waiting
+        global event
+
+        with lock:
+            users_waiting += 1
+            print(f"{users_waiting} users waiting... ({users_waiting})")
+            # No need to check for user count limit here
+
+        if event.is_set():  # Check if event is set (all users are ready)
+            event.wait()  # Wait for the event to be cleared before proceeding
+
+        user_num = self.environment.runner.user_count
+        current_time = time.strftime('%Y-%m-%d %H:%M:%S')
+        print(f"User {user_num} - Time: {current_time}")
+
+        item = random.choice(all_nodes)
+        node_type = item.split('-')[0]
+        headers = {
             'Content-Type': 'application/json;ty=4',
             'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-AQ',
+            'X-M2M-Origin': 'CAdmin' + 'AE-' + node_type,
             'X-M2M-RI': '123',
             'X-M2M-RVI': '3'
         }
 
-    @task
-    def run_task(self):
-        for _ in range(3):
-            self.client.post(self.url, headers=self.headers, json=self.data)
-
-# 1 min 1 req     
-class SRUser(HttpUser):
-    wait_time = constant(60)
-    fixed_count = len(SRNodes)
-
-    def on_start(self):
-        self.node = SRNodes.pop()
-        self.data = {
+        data = {
             "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
+                'con': nodesdata[item]['con'],
+                'lbl': nodesdata[item]['lbl'],
+                'cnf': nodesdata[item]['cnf'] + '/plain:0'
             }
         }
-        self.url = MAIN_URL + '/' + ri['AE-SR']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-SR',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-            
 
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
-    
-# 1 min 1 req
-class EMUser(HttpUser):
-    wait_time = constant(60)
-    fixed_count = len(EMNodes)
+        url = MAIN_URL + '/' + ri['AE-' + node_type]['nodes'][item]['nodes']['Data']['ri']
+        # url = f"http://10.3.1.117:8200/~/in-cse/in-name/AE-{node_type}/{item}/Data/la"
+        # self.client.get(url, headers=headers)
+        self.client.post(url, headers=headers, json=data)
 
-    def on_start(self):
-        self.node = EMNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-EM']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-EM',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
-
-# 2 min 1 req (actually 4 hours but 2 min for testing)
-class WMUser(HttpUser):
-    wait_time = constant(120) # 2 min
-    fixed_count = len(WMNodes)
-
-    def on_start(self):
-        self.node = WMNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-WM']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-WM', 
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
-
-# 1 min 1 req
-class SLUser(HttpUser):
-    wait_time = constant(60)
-    fixed_count = len(SLNodes)
-
-    def on_start(self):
-        self.node = SLNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-SL']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-SL',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=json.dumps(self.data))
-
-# 1 min 1 req
-class CMUser(HttpUser):
-    wait_time = constant(60)
-    fixed_count = len(CMNodes)
-
-    def on_start(self):
-        self.node = CMNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-CM']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-CM',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
-    
-# 22 min 1 req
-class WNUser(HttpUser):
-    wait_time = constant(1320) # 22 min
-    fixed_count = len(WNNodes)
-
-    def on_start(self):
-        self.node = WNNodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-WN']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-WN',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-    
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
-
-# 10 sec 1 req
-class WEUser(HttpUser):
-    wait_time = constant(10)
-    fixed_count = len(WENodes)
-
-    def on_start(self):
-        self.node = WENodes.pop()
-        self.data = {
-            "m2m:cin":{
-                'con': nodesdata[self.node]['con'],
-                'lbl': nodesdata[self.node]['lbl'],
-                'cnf': nodesdata[self.node]['cnf'] + '/plain:0'
-            }
-        }
-        self.url = MAIN_URL + '/' + ri['AE-WE']['nodes'][self.node]['nodes']['Data']['ri']
-        self.headers = {
-            'Content-Type': 'application/json;ty=4',
-            'Accept': 'application/json',
-            'X-M2M-Origin': 'CAdmin' + 'AE-WE',
-            'X-M2M-RI': '123',
-            'X-M2M-RVI': '3'
-        }
-    
-    @task
-    def run_task(self):
-        self.client.post(self.url, headers=self.headers, json=self.data)
+        with lock:
+            users_waiting -= 1
+            if users_waiting == 0:
+                event.clear()

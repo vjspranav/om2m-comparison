@@ -1,15 +1,20 @@
 Method,Name,Error,Occurrences
-GET,/Mobius/ae_oc/OC121/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ13/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
-GET,/Mobius/ae_aq/AQ10/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ128/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
-GET,/Mobius/ae_ac/AC63/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_ac/AC130/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_ac/AC62/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ51/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_ac/AC99/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_oc/OC91/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_oc/OC57/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
-GET,/Mobius/ae_ac/AC105/Data,RemoteDisconnected('Remote end closed connection without response'),1
-GET,/Mobius/ae_aq/AQ147/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
-GET,/Mobius/ae_ac/AC51/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH14-00/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/Mobius/AE-OC/OC-KH107-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AC/AC-KH10-00/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/Mobius/AE-AQ/AQ-MG31-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AQ/AQ-MG120-00/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/Mobius/AE-AC/AC-KH42-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH26-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH48-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH44-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AC/AC-KH80-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH90-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AQ/AQ-MG28-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH61-00/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/Mobius/AE-OC/OC-KH135-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AC/AC-KH58-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH22-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-OC/OC-KH72-00/Data,RemoteDisconnected('Remote end closed connection without response'),1
+GET,/Mobius/AE-AQ/AQ-MG122-00/Data,"ConnectionResetError(104, 'Connection reset by peer')",1
+GET,/Mobius/AE-AC/AC-KH63-00/Data,RemoteDisconnected('Remote end closed connection without response'),1

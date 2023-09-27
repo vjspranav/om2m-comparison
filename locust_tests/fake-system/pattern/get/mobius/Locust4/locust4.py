@@ -38,19 +38,20 @@ class MyUser(HttpUser):
         with open('nodes.json') as f:
             self.nodes_data = json.load(f)
 
-        for node_type, node_items in self.nodes_data.items():
-            for item in node_items:
-                self.all_nodes.append((node_type, item)) 
+        for node_type, node_names in self.nodes_data.items():
+            self.all_nodes.extend(node_names)
+
     @task
     def increase_users(self):
 
         user_num = self.environment.runner.user_count
         current_time = time.strftime('%Y-%m-%d %H:%M:%S')
-        print(f"Users {user_num} - Time: {current_time}")
+        print(f"User {user_num} - Time: {current_time}")
 
-        
-        node_type, item = random.choice(self.all_nodes)
-        url = f"http://10.3.1.117:8001/Mobius/ae_{node_type}/{item}/Data"
+       
+        item = random.choice(self.all_nodes)
+        node_type = item.split('-')[0]
+        url = f"http://10.3.1.117:8001/Mobius/AE-{node_type}/{item}/Data"
         self.client.get(url, headers=HEADER)
 
  

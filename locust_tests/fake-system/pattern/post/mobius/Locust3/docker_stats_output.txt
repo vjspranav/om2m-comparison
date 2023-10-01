@@ -785,13 +785,9 @@ a0088cc599a5   mobius-node-app-1   1.47%     485.2MiB / 15.32GiB   3.09%     2.6
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O    PIDS
 a0088cc599a5   mobius-node-app-1   1.58%     485MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
-a0088cc599a5   mobius-node-app-1   239.22%   484.7MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
-CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
 a0088cc599a5   mobius-node-app-1   1.51%     484.5MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
 a0088cc599a5   mobius-node-app-1   1.48%     484.5MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
-CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
-a0088cc599a5   mobius-node-app-1   248.05%   484.9MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS
 a0088cc599a5   mobius-node-app-1   1.45%     484.2MiB / 15.32GiB   3.09%     2.67GB / 2.55GB   528kB / 0B   143
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O    PIDS

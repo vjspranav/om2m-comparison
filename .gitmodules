@@ -1,0 +1,3 @@
+[submodule "load-testing"]
+	path = load-testing
+	url = https://gitlab.com/scrc-iiit/load-testing.git
